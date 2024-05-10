@@ -10,7 +10,7 @@ You should have Oh My Zsh installed. For more details, see [Oh My Zsh's reposito
 
 After installing Oh My Zsh, running `echo $ZSH` should display the path to the `.oh-my-zsh` directory.
 
-```
+```sh
 mkdir -p $ZSH/custom/themes
 cd $ZSH/custom/themes
 wget https://raw.githubusercontent.com/fffelix-huang/candy-fantasy/master/candy-fantasy.zsh-theme
