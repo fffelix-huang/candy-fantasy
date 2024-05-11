@@ -10,12 +10,14 @@ You should have Oh My Zsh installed. For more details, see [Oh My Zsh's reposito
 
 After installing Oh My Zsh, running `echo $ZSH` should display the path to the `.oh-my-zsh` directory.
 
+To add the theme, you could use `wget` or simply copy the file to the `$ZSH/custom/themes` directory.
+
 ```sh
 mkdir -p $ZSH/custom/themes
 cd $ZSH/custom/themes
 wget https://raw.githubusercontent.com/fffelix-huang/candy-fantasy/master/candy-fantasy.zsh-theme
 ```
 
-Replace the current theme in your `~/.zshrc` file with `ZSH_THEME="candy-fantasy"`.
+Next, update the current theme in your `~/.zshrc` file by setting `ZSH_THEME="candy-fantasy"`.
 
 To apply the changes, run `source ~/.zshrc` or restart your terminal.
